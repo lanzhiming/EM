@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.em.lanzhiming.em.MainActivity">
+    <include
+        android:id="@+id/customActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        layout="@layout/custom_spinner_vote" />
+    <LinearLayout
+        android:id="@+id/vd_title_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:background="@color/btn_bkgrd_black_new"
+        android:layout_height="56dp"
+        android:layout_below="@+id/customActionbar">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#6A6A6A"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#007AFE"
+                android:text="日期"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#007AFE"
+                android:text="姓名"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#007AFE"
+                android:text="投钻人"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#007AFE"
+                android:text="钻石数"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <view
+        android:id="@+id/list_swipeRefreshLayout"
+        android:layout_below="@id/vd_title_layout"
+        class="android.support.v4.widget.SwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </view>
+</RelativeLayout>

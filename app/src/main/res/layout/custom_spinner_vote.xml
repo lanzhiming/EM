@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/btn_bkgrd_black_new"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="1">
+    <ImageButton
+        android:id="@+id/vote_back"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:background="@drawable/general_icon_return"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        />
+
+   <!-- <Spinner
+        android:id="@+id/vote_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="全部"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:background="@drawable/vote_detail_buttonstyle"
+         />-->
+
+  <Button
+            android:id="@+id/vote_select"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/vote_detail_buttonstyle"
+            android:text="全部"
+            android:textAllCaps="false"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/down"
+             />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\layout\\slide_date_time_picker.xml",
+        "source": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\src\\main\\res\\layout\\slide_date_time_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\layout\\custom_tab.xml",
+        "source": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\layout\\fragment_date.xml",
+        "source": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\src\\main\\res\\layout\\fragment_date.xml"
+    },
+    {
+        "merged": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\layout\\fragment_time.xml",
+        "source": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\src\\main\\res\\layout\\fragment_time.xml"
+    }
+]

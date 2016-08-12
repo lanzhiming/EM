@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">项目开发中心</string>
+    <string name="log_in">Log in</string>
+    <string name="text_hint">请输入您对他友好的投钻理由,比如:\n
+    1: 对个人技术协助支持（帮助、指导)\n
+    2: 对团队贡献（创新、重大技术问题、项目开发效率\n
+    3: 对工作认真态度（自己安排加班）\n
+    4: ......</string>
+</resources>

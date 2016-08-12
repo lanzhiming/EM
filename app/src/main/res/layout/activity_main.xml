@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.em.lanzhiming.em.MainActivity">
+    <include
+        android:id="@+id/customActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        layout="@layout/custom_actionbar_main" />
+    <LinearLayout
+        android:id="@+id/segment_layout"
+        android:layout_width="match_parent"
+        android:layout_below="@id/customActionbar"
+        android:orientation="vertical"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:background="@color/btn_bkgrd_black_new"
+        android:layout_height="56dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#6A6A6A"
+            />
+        <com.sevenheaven.segmentcontrol.SegmentControl
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/segment_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:colors="#007aff"
+            app:cornerRadius="5dp"
+            app:direction="horizon"
+            app:horizonGap="10dp"
+            app:separatorWidth="2dp"
+            app:boundWidth="2dp"
+            app:textSelectedColors="#ffffff"
+            app:texts="日期|范围"
+            app:verticalGap="8dp"/>
+    </LinearLayout>
+    <view
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_below="@id/segment_layout"
+        class="android.support.v4.widget.SwipeRefreshLayout"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </view>
+</RelativeLayout>

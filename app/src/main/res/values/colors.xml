@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="c1">#B9F8EC</color>
+    <color name="c2">#22E8C3</color>
+    <color name="c3">#14C3A2</color>
+
+    <color name="btn_bkgrd_black_new">#343434</color>
+    <color name="btn_bkgrd_blue_new">#007aff</color>
+    <color name="dialog_content_background">#3d3d3d</color>
+    <color name="white">#FFFFFF</color>
+</resources>

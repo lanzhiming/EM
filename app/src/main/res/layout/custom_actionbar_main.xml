@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/btn_bkgrd_black_new"
+    android:orientation="vertical" >
+
+    <!-- tittle 两边都有button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <!-- 标题you侧的btn -->
+
+        <Button
+            android:id="@+id/detail_info"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/radius_btn"
+            android:text="详情"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <!-- 标题名称 -->
+
+        <TextView
+            android:id="@+id/tasktitlepanel_titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="北京项目中心钻石榜"
+            style="@style/title"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:id="@+id/person_picture"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/home_icon_1"
+            android:layout_marginLeft="10dp"
+            android:scaleType="center"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
