@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "outputFile": "D:\\workspace\\as_ws\\EM\\slideDateTimePicker\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -15,9 +15,9 @@
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 57,
+                        "startOffset": 61,
                         "endColumn": 61,
-                        "endOffset": 114
+                        "endOffset": 118
                     }
                 }
             },
@@ -34,9 +34,9 @@
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 119,
+                        "startOffset": 124,
                         "endColumn": 62,
-                        "endOffset": 177
+                        "endOffset": 182
                     }
                 }
             },
@@ -54,10 +54,10 @@
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 186,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 472
+                        "endOffset": 484
                     }
                 }
             },
@@ -75,10 +75,10 @@
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 510,
+                        "startOffset": 525,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 665
+                        "endOffset": 682
                     }
                 }
             }
